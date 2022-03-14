@@ -1,0 +1,30 @@
+{
+  "name": "weather-astana-kazgisa",
+  "version": "1.0.0",
+  "private":"false",
+  "description": "weather from astana, test npm package",
+  "main": "index.js",
+  "browser":"index.js",
+  "bin": "./index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "astana",
+    "miras",
+    "kazgisa"
+  ],
+  "author": "Miras Zhiyenbayev",
+  "license": "ISC",
+  "homepage": "http://kazgisa.kz",
+  "repository": {
+    "type":"git",
+    "url": "http://kazgisa.kz"
+  },
+  "bugs": {
+    "url": "http://kazgisa.kz",
+    "email": "mikos.zh8@gmail.com"
+  }
+}
