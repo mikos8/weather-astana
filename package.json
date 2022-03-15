@@ -1,14 +1,17 @@
 {
   "name": "weather-astana-kazgisa",
   "version": "1.0.0",
-  "private":"false",
+  "private": "false",
   "description": "weather from astana, test npm package",
-  "main": "index.js",
-  "browser":"index.js",
-  "bin": "./index.js",
-  
+  "main": "weather.js",
+  "browser": "index.js",
+  "bin": {
+    "weather":"weather.js"
+  },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "build": "gulp"
   },
   "keywords": [
     "weather",
@@ -20,11 +23,18 @@
   "license": "ISC",
   "homepage": "http://kazgisa.kz",
   "repository": {
-    "type":"git",
+    "type": "git",
     "url": "http://kazgisa.kz"
   },
   "bugs": {
     "url": "http://kazgisa.kz",
     "email": "mikos.zh8@gmail.com"
-  }
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {},
+   "peerDependencies": {},
+  "peerDependenciesMeta": {},
+  "optionalDependencies": {}
 }
