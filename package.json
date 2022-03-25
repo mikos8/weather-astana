@@ -6,7 +6,7 @@
   "main": "weather.js",
   "browser": "index.js",
   "bin": {
-    "weather":"weather.js"
+    "weather": "weather.js"
   },
   "type": "module",
   "scripts": {
@@ -31,10 +31,12 @@
     "email": "mikos.zh8@gmail.com"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
   },
   "devDependencies": {},
-   "peerDependencies": {},
+  "peerDependencies": {},
   "peerDependenciesMeta": {},
   "optionalDependencies": {}
 }
